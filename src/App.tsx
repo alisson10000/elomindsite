@@ -558,14 +558,12 @@ export default function EloMindLandingPage() {
 
                 <div className="mt-8 flex flex-wrap gap-4">
                   <a
-                    href="https://mail.google.com/mail/?view=cm&fs=1&to=contato@elomind.tech&su=Quero%20conhecer%20o%20EloMind&body=Olá,%20sou%20terapeuta%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20plataforma."
-                    target="_blank"
-                    rel="noreferrer"
-                    className="rounded-full px-6 py-3 text-sm font-semibold text-slate-950 transition hover:scale-[1.02]"
-                    style={{ background: '#ffffff' }}
-                  >
-                    Fale conosco
-                  </a>
+  href="mailto:contato@elomind.tech?subject=Quero%20conhecer%20o%20EloMind&body=Olá,%20sou%20terapeuta%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20plataforma."
+  className="rounded-full px-6 py-3 text-sm font-semibold text-slate-950 transition hover:scale-[1.02]"
+  style={{ background: '#ffffff' }}
+>
+  Fale conosco
+</a>
 
                   <a
                     href="#solucao"
